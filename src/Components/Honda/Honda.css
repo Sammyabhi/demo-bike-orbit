@@ -1,0 +1,59 @@
+.detailsContainer{
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    /* background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg); */
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-size: 100px 100px;
+    box-sizing: border-box;
+    display: flex;
+    transform: translateX(100px);
+    flex-direction: column;
+}
+
+.detailsContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.detailsContainer::before {
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: -80px;
+    height: 2px;
+    width: 98px;
+    background: white;
+}
+.detailsContainerLeft{
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    /* background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg); */
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    background-size: 100px 100px;
+    transform: translateX(-100px);
+    display: flex;
+    flex-direction: column;
+}
+.detailsContainerLeft::before {
+    content: "";
+    position: absolute;
+    top: 70%;
+    right: -80px;
+    height: 2px;
+    width: 98px;
+    background: white;
+}
+  
+.detailsContainerLeft img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
